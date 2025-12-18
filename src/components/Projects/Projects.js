@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import connect_four from "../../Assets/Projects/connect-four.png"
 import ticket_js from "../../Assets/Projects/ticket-js.png"
 import secret_number from "../../Assets/Projects/secret-number.png"
+import blackaerod_profile from "../../Assets/Projects/blackaerod-profile.png"
 
 function Projects() {
   return (
@@ -33,6 +34,16 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={secret_number}
+              isBlog={false}
+              title="Jeu Chiffre secret (Bug)"
+              description="Un jeu où le but c'est de trouver un nombre entre 1 et 10 généré aléatoirement avec un nombre d'essaies limités"
+              ghLink="https://github.com/jajoudev/secret-number"
+              demoLink="https://secret-number-game-rm9sm2ocr-jajoudevs-projects.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={ticket_js}
               isBlog={false}
               title="Ticket JS"
@@ -43,12 +54,12 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={secret_number}
+              imgPath={blackaerod_profile}
               isBlog={false}
-              title="Jeu Chiffre secret (Bug)"
-              description="Un jeu où le but c'est de trouver un nombre entre 1 et 10 généré aléatoirement avec un nombre d'essaies limités"
-              ghLink="https://github.com/jajoudev/secret-number"
-              demoLink="https://secret-number-game-rm9sm2ocr-jajoudevs-projects.vercel.app/"
+              title="Blackaerod's Profile Page"
+              description="Juste un simple projet permettant de créer un ticket avec une date de création, un image ajouté, une adresse email, votre nom, votre nom github"
+              ghLink="https://github.com/jajoudev/blackaerod-profile"
+              demoLink="https://blackaerod-profile.vercel.app/"
             />
           </Col>
         </Row>
