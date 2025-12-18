@@ -26,7 +26,7 @@ function Projects() {
               imgPath={connect_four}
               isBlog={false}
               title="Puissance 4"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+              description="Vous vous ennuyez ? Tester mon projet qui est un jeu que tout le monde connait qui s'appelle le Puissance 4 où le but c'est d'aligner 4 jetons de sa couleur pour gagner la partie, jouer à deux ou avec un CPU"
               ghLink="https://github.com/jajoudev/connect-four-game"
               demoLink="https://jajoudev.github.io/connect-four-game/"
             />
@@ -36,7 +36,7 @@ function Projects() {
               imgPath={ticket_js}
               isBlog={false}
               title="Ticket JS"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+              description="Juste un simple projet permettant de créer un ticket avec une date de création, un image ajouté, une adresse email, votre nom, votre nom github"
               ghLink="https://github.com/jajoudev/tickets-jsdom"
               demoLink="https://tickets-jsdom-bvdggzw1j-jajoudevs-projects.vercel.app/"
             />
@@ -46,7 +46,7 @@ function Projects() {
               imgPath={secret_number}
               isBlog={false}
               title="Jeu Chiffre secret (Bug)"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+              description="Un jeu où le but c'est de trouver un nombre entre 1 et 10 généré aléatoirement avec un nombre d'essaies limités"
               ghLink="https://github.com/jajoudev/secret-number"
               demoLink="https://secret-number-game-rm9sm2ocr-jajoudevs-projects.vercel.app/"
             />
