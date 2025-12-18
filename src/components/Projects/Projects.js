@@ -57,7 +57,7 @@ function Projects() {
               imgPath={blackaerod_profile}
               isBlog={false}
               title="Blackaerod's Profile Page"
-              description="Juste un simple projet permettant de créer un ticket avec une date de création, un image ajouté, une adresse email, votre nom, votre nom github"
+              description="Une page de profil fait pour un ami à moi avec ses réseaux comme un Linktr.ee"
               ghLink="https://github.com/jajoudev/blackaerod-profile"
               demoLink="https://blackaerod-profile.vercel.app/"
             />
