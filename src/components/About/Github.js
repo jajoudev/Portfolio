@@ -1,4 +1,3 @@
-import React from "react";
 import GitHubCalendar from "react-github-calendar";
 import { Row } from "react-bootstrap";
 
@@ -12,13 +11,13 @@ function Github() {
       }}
     >
       <h1 className="project-heading pb-4" style={{ paddingBottom: "20px" }}>
-        Days I <strong className="purple">Code</strong>
+        Les jours où j'ai <strong className="blue">Codé</strong>
       </h1>
       <GitHubCalendar
         username="jajoudev"
         blockSize={30}
         blockMargin={10}
-        color="#c084f5"
+        color="#8A8AFF"
         fontSize={20}
       />
     </Row>

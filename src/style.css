@@ -11,10 +11,10 @@ html {
     rgba(12, 10, 22, 0.863)
   );
 
-  --imp-text-color: #c770f0;
+  --imp-text-color: #5C5CFF;
 }
 
-.purple {
+.blue {
   color: var(--imp-text-color) !important;
 }
 
@@ -27,16 +27,14 @@ button:focus {
 /* --------- */
 #preloader {
   position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  inset: 0;
   z-index: 999999;
   background-color: #0c0513;
-  background-image: url(./Assets/pre.svg);
+  background-image: url("./Assets/pre.svg");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center center;
 }
+
 
 #preloader-none {
   opacity: 0;
@@ -62,18 +60,18 @@ button:focus {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #2d1950;
+  background: #2E2EFF;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgba(178, 121, 216, 0.959);
+  background: #5C5CFF;
   border-radius: 12px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(222, 130, 235, 0.911);
+  background: #5C5CFF;
   border-radius: 12px;
 }
 
@@ -93,6 +91,8 @@ button:focus {
   padding: 0.3rem 2rem !important;
   font-size: 1.2rem !important;
 }
+
+
 
 .navbar-toggler {
   position: relative !important;
@@ -159,11 +159,6 @@ button:focus {
   color: rgb(250, 250, 250) !important;
 }
 
-.logo {
-  height: 1.4em !important;
-  width: 2.5em !important;
-}
-
 .navbar-nav .nav-link {
   color: white !important;
   padding-right: 1rem !important;
@@ -199,7 +194,7 @@ button:focus {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: #c95bf5;
+  background: #5C5CFF;
   bottom: 1px;
   left: 0;
   z-index: -1;
@@ -270,33 +265,33 @@ button:focus {
 }
 
 .home-content {
-  padding: 9rem 0 2rem !important;
+  padding: 4rem 0 0rem !important;
   color: whitesmoke;
   text-align: left;
 }
 
 .heading {
-  font-size: 2.4em !important;
+  font-size: 64px !important;
   padding-left: 50px !important;
 }
 
 .heading-name {
-  font-size: 2.5em !important;
+  font-size: 74px !important;
   padding-left: 45px !important;
 }
 
 .main-name {
-  color: #cd5ff8;
+  color: #8A8AFF;
 }
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: #be6adf !important;
+  color: #B8B8FF!important;
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
-  color: #b562d6 !important;
+  color: #B8B8FF !important;
 }
 
 @media (max-width: 767px) {
