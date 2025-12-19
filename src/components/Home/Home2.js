@@ -10,7 +10,7 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              Ma petite <span className="blue"> biographie </span>
+              Ma petite <span className="blue biography"> biographie </span>
             </h1>
             <p className="home-about-body">
               Je m’appelle Jahel, je suis
@@ -34,11 +34,11 @@ function Home2() {
               <i>
                 <b className="blue">
                   {" "}
-                  HTML, CSS, JavaScript, ReactJS, PHP et MySQL. {" "}
+                  HTML, CSS, JavaScript, ReactJS, TailwindCSS, Accessibilité, PHP et MySQL. {" "}
                 </b>
               </i>
 
-              Ces technologies m’ont permis de comprendre comment fonctionne une application complète, de l’interface utilisateur jusqu’à
+              Ces technologies m’ont permis de comprendre comment fonctionne une application, de l’interface utilisateur jusqu’à
               <i>
                 <b className="blue">
                   {" "}
@@ -55,7 +55,21 @@ function Home2() {
                   le LuaU, {" "}
                 </b>
               </i>
-              une variante du Lua utilisée dans Roblox Studio, un moteur de jeu permettant de créer des expériences interactives. Je travaille actuellement sur un projet de jeu appelé “Paranoia”, développé en collaboration avec un ami.
+              une variante du Lua utilisée dans
+              <i>
+                <b className="blue">
+                  {" "}
+                  Roblox Studio{" "}
+                </b>
+              </i>
+              , un moteur de jeu permettant de créer des expériences interactives. Je travaille actuellement sur un projet de jeu appelé
+              <i>
+                <b className="blue">
+                  {" "}
+                  “Paranoia”{" "}
+                </b>
+              </i>
+              , développé en collaboration avec un ami.
             </p>
           </Col>
           <Col md={4} className="myAvtar">

@@ -377,12 +377,6 @@ button:focus {
   z-index: -1;
 }
 
-.flex {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .home-social-icons:hover::before {
   transform: scale(1.1);
   box-shadow: 0 0 15px #801f95;
@@ -402,6 +396,11 @@ button:focus {
 
 .icon-colour {
   color: #0000FF !important;
+}
+
+.biography {
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 /* --------- */
