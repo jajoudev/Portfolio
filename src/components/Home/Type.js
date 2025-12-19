@@ -5,7 +5,8 @@ function Type() {
     <Typewriter
       options={{
         strings: [
-          "Développeur Web",
+          "Développeur Web Full Stack",
+          "Développeur Junior Roblox",
           "Créateur de Contenu",
         ],
         autoStart: true,

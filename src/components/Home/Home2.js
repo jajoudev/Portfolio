@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import jajou_bubble_tea from "../../Assets/jajou_bubble_tea.png";
 import Tilt from "react-parallax-tilt";
 
 function Home2() {
@@ -10,49 +10,57 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="blue"> INTRODUCE </span> MYSELF
+              Ma petite <span className="blue"> biographie </span>
             </h1>
             <p className="home-about-body">
-              {/* I’m a Software Engineer who loves transforming ideas into
-              reliable, scalable products. Over time, I’ve explored several
-              technologies and found my passion in building high-performance
-              systems and intuitive user experiences.
-              <br />
-              <br />
-              I’m proficient in
+              Je m’appelle Jahel, je suis
               <i>
-                <b className="purple">
+                <b className="blue">
                   {" "}
-                  JavaScript, C++, Rust, Node.js, and Java{" "}
+                  développeur full stack.{" "}
                 </b>
               </i>
-              — and I enjoy working across both backend and frontend stacks.
-              <br />
-              <br />
-              My key areas of interest include developing
+              Je suis actuellement à la fin de ma deuxième année à Eden School, une école digitale et numérique située à Paris, où j’ai développé des bases dans
               <i>
-                <b className="purple">
+                <b className="blue">
                   {" "}
-                  Web Applications, Blockchain Solutions,{" "}
+                  le développement web.{" "}
                 </b>
               </i>
-              and exploring new ways to bridge on-chain and off-chain systems.
+
               <br />
               <br />
-              Whenever possible, I love building projects with
-              <b className="purple"> Node.js </b> and modern frameworks like{" "}
+              Au cours de ma formation, j’ai acquis des compétences en
               <i>
-                <b className="purple">React.js</b> and{" "}
-                <b className="purple">Next.js</b>.
-              </i> */}
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                <b className="blue">
+                  {" "}
+                  HTML, CSS, JavaScript, ReactJS, PHP et MySQL. {" "}
+                </b>
+              </i>
 
+              Ces technologies m’ont permis de comprendre comment fonctionne une application complète, de l’interface utilisateur jusqu’à
+              <i>
+                <b className="blue">
+                  {" "}
+                  la gestion des données. {" "}
+                </b>
+              </i>
 
+              <br />
+              <br />
+              Je me suis aussi intéressé à d’autres langages comme
+              <i>
+                <b className="blue">
+                  {" "}
+                  le LuaU, {" "}
+                </b>
+              </i>
+              une variante du Lua utilisée dans Roblox Studio, un moteur de jeu permettant de créer des expériences interactives. Je travaille actuellement sur un projet de jeu appelé “Paranoia”, développé en collaboration avec un ami.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={jajou_bubble_tea} className="img-fluid" alt="avatar" />
             </Tilt>
           </Col>
         </Row>
