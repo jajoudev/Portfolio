@@ -5,6 +5,7 @@ import connect_four from "../../Assets/Projects/connect-four.png"
 import ticket_js from "../../Assets/Projects/ticket-js.png"
 import secret_number from "../../Assets/Projects/secret-number.png"
 import blackaerod_profile from "../../Assets/Projects/blackaerod-profile.png"
+import mental from "../../Assets/Projects/mental_health.png"
 
 function Projects() {
   return (
@@ -30,8 +31,15 @@ function Projects() {
               isBlog={false}
               title="Paranoia 💉"
               description="Un jeu sur Roblox que je suis en train de créer avec un ami à moi"
-              ghLink="https://github.com/jajoudev/connect-four-game"
               demoLink="https://jajoudev.github.io/connect-four-game/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={mental}
+              isBlog={false}
+              title="Projet Fil Rouge"
+              description="Un site pour les personnes qui ont des troubles menteaux (anxiété, dépression...) et de favoriser leur bien-être"
             />
           </Col>
           <Col md={4} className="project-card">

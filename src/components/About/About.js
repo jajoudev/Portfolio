@@ -3,7 +3,7 @@ import Particle from "../Particle";
 import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/about.png";
+import JajouAbout from "../../Assets/jajou_about.png";
 import Toolstack from "./Toolstack";
 
 function About() {
@@ -32,7 +32,7 @@ function About() {
               style={{ paddingTop: "120px", paddingBottom: "50px" }}
               className="about-img"
             >
-              <img src={laptopImg} alt="about" className="img-fluid" />
+              <img src={JajouAbout} alt="about" className="img-fluid" />
             </Col>
           </Row>
           <h1 className="project-heading">
