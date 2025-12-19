@@ -27,14 +27,13 @@ function Home2() {
                   le développement web.{" "}
                 </b>
               </i>
-
               <br />
               <br />
               Au cours de ma formation, j’ai acquis des compétences en
               <i>
                 <b className="blue">
                   {" "}
-                  HTML, CSS, JavaScript, ReactJS, TailwindCSS, Accessibilité, PHP et MySQL. {" "}
+                  HTML, CSS, JavaScript, ReactJS, TailwindCSS, NodeJS, PHP, MySQL et en Accessibilité. {" "}
                 </b>
               </i>
 
